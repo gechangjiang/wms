@@ -4,7 +4,7 @@ package com.tdt.sys.core.constant;
 /**
  * 默认的头像base64编码
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2018-11-10-12:12 PM
  */
 public class DefaultAvatar {

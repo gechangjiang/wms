@@ -17,7 +17,7 @@ import java.util.Map;
  * 数据库信息表 Mapper 接口
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-15
  */
 public interface DatabaseInfoMapper extends BaseMapper<DatabaseInfo> {
@@ -25,7 +25,7 @@ public interface DatabaseInfoMapper extends BaseMapper<DatabaseInfo> {
     /**
      * 获取列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     List<DatabaseInfoResult> customList(@Param("paramCondition") DatabaseInfoParam paramCondition);
@@ -33,7 +33,7 @@ public interface DatabaseInfoMapper extends BaseMapper<DatabaseInfo> {
     /**
      * 获取map列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     List<Map<String, Object>> customMapList(@Param("paramCondition") DatabaseInfoParam paramCondition);
@@ -41,7 +41,7 @@ public interface DatabaseInfoMapper extends BaseMapper<DatabaseInfo> {
     /**
      * 获取分页实体列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     Page<DatabaseInfoResult> customPageList(@Param("page") Page page, @Param("paramCondition") DatabaseInfoParam paramCondition);
@@ -49,7 +49,7 @@ public interface DatabaseInfoMapper extends BaseMapper<DatabaseInfo> {
     /**
      * 获取分页map列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") DatabaseInfoParam paramCondition);

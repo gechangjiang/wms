@@ -20,7 +20,7 @@ import lombok.Getter;
 /**
  * 公共状态
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年1月22日 下午12:14:59
  */
 @Getter

@@ -14,7 +14,7 @@ import static com.tdt.base.consts.ConfigConstant.SYSTEM_CONSTANT_PREFIX;
 /**
  * 系统常量的容器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-06-20 13:37
  */
 @Slf4j

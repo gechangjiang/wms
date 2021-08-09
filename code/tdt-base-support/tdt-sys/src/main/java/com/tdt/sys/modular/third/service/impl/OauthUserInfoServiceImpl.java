@@ -22,7 +22,7 @@ import java.util.List;
  * 第三方用户信息表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-09
  */
 @Service

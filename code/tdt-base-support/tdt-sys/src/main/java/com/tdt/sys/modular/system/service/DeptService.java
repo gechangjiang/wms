@@ -24,7 +24,7 @@ import java.util.Map;
  * 部门表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -36,7 +36,7 @@ public class DeptService extends ServiceImpl<DeptMapper, Dept> {
     /**
      * 新增部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:00 PM
      */
     @Transactional(rollbackFor = Exception.class)
@@ -55,7 +55,7 @@ public class DeptService extends ServiceImpl<DeptMapper, Dept> {
     /**
      * 修改部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:00 PM
      */
     @Transactional(rollbackFor = Exception.class)
@@ -74,7 +74,7 @@ public class DeptService extends ServiceImpl<DeptMapper, Dept> {
     /**
      * 删除部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:16 PM
      */
     @Transactional
@@ -94,7 +94,7 @@ public class DeptService extends ServiceImpl<DeptMapper, Dept> {
     /**
      * 获取ztree的节点列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:16 PM
      */
     public List<ZTreeNode> tree() {
@@ -104,7 +104,7 @@ public class DeptService extends ServiceImpl<DeptMapper, Dept> {
     /**
      * 获取ztree的节点列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:16 PM
      */
     public List<TreeviewNode> treeviewNodes() {
@@ -114,7 +114,7 @@ public class DeptService extends ServiceImpl<DeptMapper, Dept> {
     /**
      * 获取所有部门列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:16 PM
      */
     public Page<Map<String, Object>> list(String condition, Long deptId) {
@@ -125,7 +125,7 @@ public class DeptService extends ServiceImpl<DeptMapper, Dept> {
     /**
      * 设置部门的父级ids
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:58 PM
      */
     private void deptSetPids(Dept dept) {

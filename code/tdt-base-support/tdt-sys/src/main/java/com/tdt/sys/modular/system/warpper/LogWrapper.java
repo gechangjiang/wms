@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * 日志列表的包装类
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年4月5日22:56:24
  */
 public class LogWrapper extends BaseControllerWrapper {

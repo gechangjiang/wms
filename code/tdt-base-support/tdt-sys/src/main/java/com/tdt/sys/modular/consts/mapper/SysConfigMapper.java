@@ -19,7 +19,7 @@ import java.util.Map;
  * 参数配置 Mapper 接口
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-20
  */
 public interface SysConfigMapper extends BaseMapper<SysConfig> {
@@ -27,7 +27,7 @@ public interface SysConfigMapper extends BaseMapper<SysConfig> {
     /**
      * 获取列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     List<SysConfigResult> customList(@Param("paramCondition") SysConfigParam paramCondition);
@@ -35,7 +35,7 @@ public interface SysConfigMapper extends BaseMapper<SysConfig> {
     /**
      * 获取map列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     List<Map<String, Object>> customMapList(@Param("paramCondition") SysConfigParam paramCondition);
@@ -43,7 +43,7 @@ public interface SysConfigMapper extends BaseMapper<SysConfig> {
     /**
      * 获取分页实体列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     Page<SysConfigResult> customPageList(@Param("page") Page page, @Param("paramCondition") SysConfigParam paramCondition);
@@ -51,7 +51,7 @@ public interface SysConfigMapper extends BaseMapper<SysConfig> {
     /**
      * 获取分页map列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") SysConfigParam paramCondition);

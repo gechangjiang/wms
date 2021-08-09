@@ -36,7 +36,7 @@ import java.math.BigDecimal;
  * 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -52,7 +52,7 @@ public class FileInfoService extends ServiceImpl<FileInfoMapper, FileInfo> {
     /**
      * 更新头像
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/11/10 4:10 PM
      */
     @Transactional(rollbackFor = Exception.class)
@@ -72,7 +72,7 @@ public class FileInfoService extends ServiceImpl<FileInfoMapper, FileInfo> {
     /**
      * 预览当前用户头像
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-05-04 17:04
      */
     public byte[] previewAvatar() {
@@ -111,7 +111,7 @@ public class FileInfoService extends ServiceImpl<FileInfoMapper, FileInfo> {
     /**
      * 上传文件
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-05-04 17:18
      */
     public String uploadFile(MultipartFile file) {

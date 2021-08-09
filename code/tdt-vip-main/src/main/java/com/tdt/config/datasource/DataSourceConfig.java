@@ -21,7 +21,7 @@ import static com.tdt.base.db.context.DataSourceContext.MASTER_DATASOURCE_NAME;
  * <p>
  * 注：由于引入多数据源，所以让spring事务的aop要在多数据源切换aop的后面
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017/5/20 21:58
  */
 @Configuration

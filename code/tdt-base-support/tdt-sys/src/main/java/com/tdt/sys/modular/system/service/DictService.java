@@ -31,7 +31,7 @@ import java.util.Map;
  * 基础字典 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-03-13
  */
 @Service
@@ -43,7 +43,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public void add(DictParam param) {
@@ -72,7 +72,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 删除
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public void delete(DictParam param) {
@@ -89,7 +89,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 更新
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public void update(DictParam param) {
@@ -116,7 +116,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 查询单条数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public DictResult findBySpec(DictParam param) {
@@ -126,7 +126,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 查询列表，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public List<DictResult> findListBySpec(DictParam param) {
@@ -136,7 +136,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 查询分页数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public LayuiPageInfo findPageBySpec(DictParam param) {
@@ -167,7 +167,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 获取字典的树形列表（ztree结构）
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/3/14 3:40 PM
      */
     public List<ZTreeNode> dictTreeList(Long dictTypeId, Long dictId) {
@@ -202,7 +202,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 查看dict的详情
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/3/14 5:22 PM
      */
     public DictResult dictDetail(Long dictId) {
@@ -237,7 +237,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 查询字典列表，通过字典类型
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20 15:14
      */
     public List<Dict> listDicts(Long dictTypeId) {
@@ -258,7 +258,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 查询字典列表，通过字典类型code
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20 15:14
      */
     public List<Dict> listDictsByCode(String dictTypeCode) {
@@ -273,7 +273,7 @@ public class DictService extends ServiceImpl<DictMapper, Dict> {
     /**
      * 查询字典列表，通过字典类型code
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20 15:14
      */
     public List<Map<String, Object>> getDictsByCodes(List<String> dictCodes) {

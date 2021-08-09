@@ -22,7 +22,7 @@ import static com.tdt.base.db.context.DataSourceContext.MASTER_DATASOURCE_NAME;
 /**
  * 操作数据源信息的dao
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-06-12-14:02
  */
 @Slf4j
@@ -37,7 +37,7 @@ public class DataBaseInfoDao {
     /**
      * 查询所有数据源列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-05-04 20:30
      */
     public Map<String, DruidProperties> getAllDataBaseInfo() {
@@ -68,7 +68,7 @@ public class DataBaseInfoDao {
     /**
      * 初始化master的数据源，要和properties配置的数据源一致
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15 10:20
      */
     public void createMasterDatabaseInfo() {
@@ -99,7 +99,7 @@ public class DataBaseInfoDao {
     /**
      * 删除master的数据源信息
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15 10:20
      */
     public void deleteMasterDatabaseInfo() {
@@ -121,7 +121,7 @@ public class DataBaseInfoDao {
     /**
      * 通过查询结果组装druidProperties
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-12 14:22
      */
     private DruidProperties createDruidProperties(ResultSet resultSet) {

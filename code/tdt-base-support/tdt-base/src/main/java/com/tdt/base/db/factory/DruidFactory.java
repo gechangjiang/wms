@@ -7,7 +7,7 @@ import com.tdt.base.db.entity.DatabaseInfo;
 /**
  * 配置文件的创建
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-06-15-20:05
  */
 public class DruidFactory {
@@ -15,7 +15,7 @@ public class DruidFactory {
     /**
      * 创建druid配置
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15 20:05
      */
     public static DruidProperties createDruidProperties(DatabaseInfo databaseInfo) {

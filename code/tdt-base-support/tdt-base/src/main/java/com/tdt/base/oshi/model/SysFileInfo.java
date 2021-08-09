@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 系统文件相关信息
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-07-13 13:42
  */
 @Data

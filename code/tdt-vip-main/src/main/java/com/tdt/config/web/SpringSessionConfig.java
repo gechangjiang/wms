@@ -20,7 +20,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 /**
  * spring session配置(需要的话放开注释)
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-07-13 21:05
  */
 //@Configuration

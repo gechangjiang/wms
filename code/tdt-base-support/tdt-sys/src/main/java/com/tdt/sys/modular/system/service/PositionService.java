@@ -13,7 +13,7 @@ import java.util.List;
  * 职位表 服务类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-27
  */
 public interface PositionService extends IService<Position> {
@@ -21,7 +21,7 @@ public interface PositionService extends IService<Position> {
     /**
      * 新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     void add(PositionParam param);
@@ -29,7 +29,7 @@ public interface PositionService extends IService<Position> {
     /**
      * 删除
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     void delete(PositionParam param);
@@ -37,7 +37,7 @@ public interface PositionService extends IService<Position> {
     /**
      * 更新
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     void update(PositionParam param);
@@ -45,7 +45,7 @@ public interface PositionService extends IService<Position> {
     /**
      * 查询单条数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     PositionResult findBySpec(PositionParam param);
@@ -53,7 +53,7 @@ public interface PositionService extends IService<Position> {
     /**
      * 查询列表，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     List<PositionResult> findListBySpec(PositionParam param);
@@ -61,7 +61,7 @@ public interface PositionService extends IService<Position> {
     /**
      * 查询分页数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
      LayuiPageInfo findPageBySpec(PositionParam param);
@@ -69,7 +69,7 @@ public interface PositionService extends IService<Position> {
     /**
      * 获取多选框的职位列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     LayuiPageInfo listPositions(Long userId);

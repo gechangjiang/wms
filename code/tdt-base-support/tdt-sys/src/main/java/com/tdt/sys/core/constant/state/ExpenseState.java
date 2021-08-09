@@ -18,7 +18,7 @@ package com.tdt.sys.core.constant.state;
 /**
  * 是否是菜单的枚举
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年6月1日22:50:11
  */
 public enum ExpenseState {

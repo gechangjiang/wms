@@ -13,7 +13,7 @@ import java.util.List;
  * 用户职位关联表 服务类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-28
  */
 public interface UserPosService extends IService<UserPos> {
@@ -21,7 +21,7 @@ public interface UserPosService extends IService<UserPos> {
     /**
      * 新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-28
      */
     void add(UserPosParam param);
@@ -29,7 +29,7 @@ public interface UserPosService extends IService<UserPos> {
     /**
      * 删除
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-28
      */
     void delete(UserPosParam param);
@@ -37,7 +37,7 @@ public interface UserPosService extends IService<UserPos> {
     /**
      * 更新
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-28
      */
     void update(UserPosParam param);
@@ -45,7 +45,7 @@ public interface UserPosService extends IService<UserPos> {
     /**
      * 查询单条数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-28
      */
     UserPosResult findBySpec(UserPosParam param);
@@ -53,7 +53,7 @@ public interface UserPosService extends IService<UserPos> {
     /**
      * 查询列表，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-28
      */
     List<UserPosResult> findListBySpec(UserPosParam param);
@@ -61,7 +61,7 @@ public interface UserPosService extends IService<UserPos> {
     /**
      * 查询分页数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-28
      */
      LayuiPageInfo findPageBySpec(UserPosParam param);

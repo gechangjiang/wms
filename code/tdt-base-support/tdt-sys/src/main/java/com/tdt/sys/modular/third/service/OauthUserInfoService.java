@@ -13,7 +13,7 @@ import java.util.List;
  * 第三方用户信息表 服务类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-09
  */
 public interface OauthUserInfoService extends IService<OauthUserInfo> {
@@ -21,7 +21,7 @@ public interface OauthUserInfoService extends IService<OauthUserInfo> {
     /**
      * 新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     void add(OauthUserInfoParam param);
@@ -29,7 +29,7 @@ public interface OauthUserInfoService extends IService<OauthUserInfo> {
     /**
      * 删除
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     void delete(OauthUserInfoParam param);
@@ -37,7 +37,7 @@ public interface OauthUserInfoService extends IService<OauthUserInfo> {
     /**
      * 更新
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     void update(OauthUserInfoParam param);
@@ -45,7 +45,7 @@ public interface OauthUserInfoService extends IService<OauthUserInfo> {
     /**
      * 查询单条数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     OauthUserInfoResult findBySpec(OauthUserInfoParam param);
@@ -53,7 +53,7 @@ public interface OauthUserInfoService extends IService<OauthUserInfo> {
     /**
      * 查询列表，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     List<OauthUserInfoResult> findListBySpec(OauthUserInfoParam param);
@@ -61,7 +61,7 @@ public interface OauthUserInfoService extends IService<OauthUserInfo> {
     /**
      * 查询分页数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     LayuiPageInfo findPageBySpec(OauthUserInfoParam param);
@@ -69,7 +69,7 @@ public interface OauthUserInfoService extends IService<OauthUserInfo> {
     /**
      * 获取用户头像地址
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-11 13:25
      */
     String getAvatarUrl(Long userId);

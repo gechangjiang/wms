@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * 字典类型表控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-03-13 13:53:54
  */
 @Controller
@@ -34,7 +34,7 @@ public class DictTypeController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("")
@@ -45,7 +45,7 @@ public class DictTypeController extends BaseController {
     /**
      * 新增页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/add")
@@ -56,7 +56,7 @@ public class DictTypeController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/edit")
@@ -67,7 +67,7 @@ public class DictTypeController extends BaseController {
     /**
      * 新增接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/addItem")
@@ -80,7 +80,7 @@ public class DictTypeController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/editItem")
@@ -93,7 +93,7 @@ public class DictTypeController extends BaseController {
     /**
      * 删除接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/delete")
@@ -106,7 +106,7 @@ public class DictTypeController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/detail")
@@ -119,7 +119,7 @@ public class DictTypeController extends BaseController {
     /**
      * 查询列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @ResponseBody
@@ -131,7 +131,7 @@ public class DictTypeController extends BaseController {
     /**
      * 查询所有字典
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @ResponseBody

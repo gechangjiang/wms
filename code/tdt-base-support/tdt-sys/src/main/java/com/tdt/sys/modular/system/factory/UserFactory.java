@@ -31,7 +31,7 @@ import java.util.Map;
 /**
  * 用户创建工厂
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-05-05 22:43
  */
 public class UserFactory {

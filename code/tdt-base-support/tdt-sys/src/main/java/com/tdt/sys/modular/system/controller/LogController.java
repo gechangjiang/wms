@@ -42,7 +42,7 @@ import java.util.Map;
 /**
  * 日志管理的控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年4月5日 19:45:36
  */
 @Controller
@@ -57,7 +57,7 @@ public class LogController extends BaseController {
     /**
      * 跳转到日志管理的首页
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:34 PM
      */
     @RequestMapping("")
@@ -68,7 +68,7 @@ public class LogController extends BaseController {
     /**
      * 查询操作日志列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:34 PM
      */
     @RequestMapping("/list")
@@ -93,7 +93,7 @@ public class LogController extends BaseController {
     /**
      * 查询操作日志详情
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:34 PM
      */
     @RequestMapping("/detail/{id}")
@@ -108,7 +108,7 @@ public class LogController extends BaseController {
     /**
      * 清空日志
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:34 PM
      */
     @BussinessLog(value = "清空业务日志")

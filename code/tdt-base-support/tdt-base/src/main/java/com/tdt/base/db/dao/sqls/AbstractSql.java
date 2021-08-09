@@ -3,7 +3,7 @@ package com.tdt.base.db.dao.sqls;
 /**
  * 异构sql获取
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-07-16-13:13
  */
 public abstract class AbstractSql {
@@ -11,7 +11,7 @@ public abstract class AbstractSql {
     /**
      * 获取异构sql
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-07-16 13:14
      */
     public String getSql(String jdbcUrl) {

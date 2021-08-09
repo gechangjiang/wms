@@ -12,7 +12,7 @@ import java.util.Date;
  * 管理员表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @TableName("sys_user")

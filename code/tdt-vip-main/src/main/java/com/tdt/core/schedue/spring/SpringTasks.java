@@ -5,7 +5,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 /**
  * 测试定时任务
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/2/24 16:29
  */
 public class SpringTasks {
@@ -13,7 +13,7 @@ public class SpringTasks {
     /**
      * 上一次开始执行时间点之后5秒再执行
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/24 16:31
      */
     @Scheduled(fixedRate = 5000)
@@ -24,7 +24,7 @@ public class SpringTasks {
     /**
      * 上一次执行完毕时间点之后5秒再执行
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/24 16:31
      */
     @Scheduled(fixedDelay = 5000)
@@ -35,7 +35,7 @@ public class SpringTasks {
     /**
      * 上一次执行完毕时间点之后5秒再执行
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/24 16:31
      */
     @Scheduled(initialDelay = 1000, fixedRate = 5000)
@@ -46,7 +46,7 @@ public class SpringTasks {
     /**
      * cron表达式执行
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/24 16:31
      */
     @Scheduled(cron = "*/10 * * * * *")

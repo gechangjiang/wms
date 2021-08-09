@@ -16,7 +16,7 @@ import java.util.List;
  * 参数配置 服务类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-20
  */
 public interface SysConfigService extends IService<SysConfig> {
@@ -24,7 +24,7 @@ public interface SysConfigService extends IService<SysConfig> {
     /**
      * 新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     void add(SysConfigParam param);
@@ -32,7 +32,7 @@ public interface SysConfigService extends IService<SysConfig> {
     /**
      * 删除
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     void delete(SysConfigParam param);
@@ -40,7 +40,7 @@ public interface SysConfigService extends IService<SysConfig> {
     /**
      * 更新
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     void update(SysConfigParam param);
@@ -48,7 +48,7 @@ public interface SysConfigService extends IService<SysConfig> {
     /**
      * 查询单条数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     SysConfigResult findBySpec(SysConfigParam param);
@@ -56,7 +56,7 @@ public interface SysConfigService extends IService<SysConfig> {
     /**
      * 查询列表，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     List<SysConfigResult> findListBySpec(SysConfigParam param);
@@ -64,7 +64,7 @@ public interface SysConfigService extends IService<SysConfig> {
     /**
      * 查询分页数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
      LayuiPageInfo findPageBySpec(SysConfigParam param);

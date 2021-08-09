@@ -18,7 +18,7 @@ package com.tdt.sys.core.exception.enums;
 import cn.stylefeng.roses.kernel.model.exception.AbstractBaseExceptionEnum;
 
 /**
- * @author www.qiqucode.com
+ * @author gcj
  * @Description 所有业务异常的枚举
  * @date 2016年11月12日 下午5:04:51
  */

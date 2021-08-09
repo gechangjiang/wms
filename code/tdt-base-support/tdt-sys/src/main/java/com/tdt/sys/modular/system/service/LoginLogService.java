@@ -14,7 +14,7 @@ import java.util.Map;
  * 登录记录 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -23,7 +23,7 @@ public class LoginLogService extends ServiceImpl<LoginLogMapper, LoginLog> {
     /**
      * 获取登录日志列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     public List<Map<String, Object>> getLoginLogs(Page page, String beginTime, String endTime, String logName) {

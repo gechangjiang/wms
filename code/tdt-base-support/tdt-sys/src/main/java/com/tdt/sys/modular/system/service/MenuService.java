@@ -35,7 +35,7 @@ import java.util.Map;
  * 菜单表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -47,7 +47,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
     /**
      * 添加菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:59 PM
      */
     @Transactional
@@ -74,7 +74,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
     /**
      * 更新菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/27 4:09 PM
      */
     @Transactional(rollbackFor = Exception.class)
@@ -107,7 +107,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
      *
      * @param oldMenu 原来的菜单
      * @param newMenu 新菜单
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/27 4:25 PM
      */
     @Transactional(rollbackFor = Exception.class)
@@ -143,7 +143,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
     /**
      * 删除菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2017/5/5 22:20
      */
     @Transactional
@@ -159,7 +159,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
     /**
      * 删除菜单包含所有子菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2017/6/13 22:02
      */
     @Transactional
@@ -271,7 +271,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
     /**
      * 根据code查询菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/20 21:54
      */
     public Menu selectByCode(String code) {
@@ -284,7 +284,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
     /**
      * 根据请求的父级菜单编号设置pcode和层级
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:54 PM
      */
     public Menu menuSetPcode(MenuDto menuParam) {
@@ -317,7 +317,7 @@ public class MenuService extends ServiceImpl<MenuMapper, Menu> {
     /**
      * 获取菜单树形列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/23 22:02
      */
     public List<Map<String, Object>> selectMenuTree(String condition, String level) {

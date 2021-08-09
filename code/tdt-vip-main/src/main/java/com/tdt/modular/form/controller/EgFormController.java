@@ -18,7 +18,7 @@ import java.util.ArrayList;
 /**
  * Guns复杂表单的示例控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-02-18 21:37:43
  */
 @Controller
@@ -30,7 +30,7 @@ public class EgFormController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-02-18
      */
     @RequestMapping("")
@@ -41,7 +41,7 @@ public class EgFormController extends BaseController {
     /**
      * 新增页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-02-18
      */
     @RequestMapping("/add")
@@ -52,7 +52,7 @@ public class EgFormController extends BaseController {
     /**
      * 新增接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-02-18
      */
     @RequestMapping("/addItem")
@@ -65,7 +65,7 @@ public class EgFormController extends BaseController {
     /**
      * 删除接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-02-18
      */
     @RequestMapping("/delete")
@@ -78,7 +78,7 @@ public class EgFormController extends BaseController {
     /**
      * 查询列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-02-18
      */
     @ResponseBody

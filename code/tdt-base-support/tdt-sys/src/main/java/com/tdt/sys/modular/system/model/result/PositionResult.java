@@ -10,7 +10,7 @@ import java.util.Date;
  * 职位表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-27
  */
 @Data

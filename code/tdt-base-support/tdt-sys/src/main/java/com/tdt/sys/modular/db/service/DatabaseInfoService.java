@@ -13,7 +13,7 @@ import java.util.List;
  * 数据库信息表 服务类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-15
  */
 public interface DatabaseInfoService extends IService<DatabaseInfo> {
@@ -21,7 +21,7 @@ public interface DatabaseInfoService extends IService<DatabaseInfo> {
     /**
      * 新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     void add(DatabaseInfoParam param);
@@ -29,7 +29,7 @@ public interface DatabaseInfoService extends IService<DatabaseInfo> {
     /**
      * 删除
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     void delete(DatabaseInfoParam param);
@@ -37,7 +37,7 @@ public interface DatabaseInfoService extends IService<DatabaseInfo> {
     /**
      * 更新
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     void update(DatabaseInfoParam param);
@@ -45,7 +45,7 @@ public interface DatabaseInfoService extends IService<DatabaseInfo> {
     /**
      * 查询单条数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     DatabaseInfoResult findBySpec(DatabaseInfoParam param);
@@ -53,7 +53,7 @@ public interface DatabaseInfoService extends IService<DatabaseInfo> {
     /**
      * 查询列表，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     List<DatabaseInfoResult> findListBySpec(DatabaseInfoParam param);
@@ -61,7 +61,7 @@ public interface DatabaseInfoService extends IService<DatabaseInfo> {
     /**
      * 查询分页数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
      LayuiPageInfo findPageBySpec(DatabaseInfoParam param);

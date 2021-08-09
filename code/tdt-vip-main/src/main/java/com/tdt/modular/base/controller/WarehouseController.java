@@ -139,7 +139,7 @@ public class WarehouseController extends BaseController {
     /**
      * 获取角色的菜单列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:54 PM
      */
     @RequestMapping(value = "/warehouseTreeListByDeptId/{deptId}")

@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 日志管理器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-03-30 16:29
  */
 public class LogManager {

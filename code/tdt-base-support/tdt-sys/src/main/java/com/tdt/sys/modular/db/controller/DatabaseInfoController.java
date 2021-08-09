@@ -26,7 +26,7 @@ import java.util.Map;
 /**
  * 数据库信息表控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-06-15 17:05:23
  */
 @Controller
@@ -46,7 +46,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @RequestMapping("")
@@ -57,7 +57,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 新增页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @RequestMapping("/add")
@@ -68,7 +68,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @RequestMapping("/edit")
@@ -79,7 +79,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 新增接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @RequestMapping("/addItem")
@@ -92,7 +92,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @RequestMapping("/editItem")
@@ -105,7 +105,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 删除接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @RequestMapping("/delete")
@@ -118,7 +118,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @RequestMapping("/detail")
@@ -131,7 +131,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 查询列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15
      */
     @ResponseBody
@@ -145,7 +145,7 @@ public class DatabaseInfoController extends BaseController {
     /**
      * 获取某个数据源下的所有表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/1/30 2:49 PM
      */
     @RequestMapping("/tableList")

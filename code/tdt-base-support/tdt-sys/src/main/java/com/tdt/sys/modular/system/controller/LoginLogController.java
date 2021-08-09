@@ -37,7 +37,7 @@ import java.util.Map;
 /**
  * 日志管理的控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年4月5日 19:45:36
  */
 @Controller
@@ -52,7 +52,7 @@ public class LoginLogController extends BaseController {
     /**
      * 跳转到日志管理的首页
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:51 PM
      */
     @RequestMapping("")
@@ -63,7 +63,7 @@ public class LoginLogController extends BaseController {
     /**
      * 查询登录日志列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:51 PM
      */
     @RequestMapping("/list")
@@ -86,7 +86,7 @@ public class LoginLogController extends BaseController {
     /**
      * 清空日志
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:51 PM
      */
     @BussinessLog("清空登录日志")

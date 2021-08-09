@@ -10,7 +10,7 @@ import java.util.Properties;
 /**
  * beetl配置(如果需要配置别的配置可参照这个形式自己添加)
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-05-24 20:37
  */
 @Data

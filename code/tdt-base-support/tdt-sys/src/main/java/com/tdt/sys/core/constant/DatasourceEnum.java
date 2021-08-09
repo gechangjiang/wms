@@ -18,7 +18,7 @@ package com.tdt.sys.core.constant;
 /**
  * 多数据源的枚举
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年3月5日 上午10:15:02
  */
 public interface DatasourceEnum {

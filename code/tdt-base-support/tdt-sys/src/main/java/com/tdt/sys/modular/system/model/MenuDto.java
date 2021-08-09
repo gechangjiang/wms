@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 菜单表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Data

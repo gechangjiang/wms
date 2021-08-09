@@ -10,7 +10,7 @@ import java.util.Date;
  * 文件信息表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-05-04
  */
 @TableName("sys_file_info")

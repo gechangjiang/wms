@@ -20,7 +20,7 @@ import com.tdt.base.dict.AbstractDictMap;
 /**
  * 字典map
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-05-06 15:43
  */
 public class DictMap extends AbstractDictMap {

@@ -13,7 +13,7 @@ import java.util.Map;
  * 操作日志 Mapper 接口
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 public interface OperationLogMapper extends BaseMapper<OperationLog> {

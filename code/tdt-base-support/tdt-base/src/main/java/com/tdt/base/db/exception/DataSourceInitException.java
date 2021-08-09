@@ -6,7 +6,7 @@ import cn.stylefeng.roses.kernel.model.exception.ServiceException;
 /**
  * 数据源容器初始化失败异常
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-06-12-13:53
  */
 public class DataSourceInitException extends ServiceException {

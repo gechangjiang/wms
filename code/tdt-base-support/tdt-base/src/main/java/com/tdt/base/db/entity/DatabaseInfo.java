@@ -10,7 +10,7 @@ import java.util.Date;
  * 数据库信息表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-15
  */
 @TableName("database_info")

@@ -14,7 +14,7 @@ import java.util.Date;
 /**
  * oauth绑定记录
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/6/9 19:02
  */
 public class OAuthUserInfoFactory {
@@ -22,7 +22,7 @@ public class OAuthUserInfoFactory {
     /**
      * 创建oauth绑定
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 19:03
      */
     public static OauthUserInfo createOAuthUserInfo(Long userId, AuthUser oauthUser) {
@@ -42,7 +42,7 @@ public class OAuthUserInfoFactory {
     /**
      * 创建第三方应用在本应用的用户
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 19:11
      */
     public static User createOAuthUser(AuthUser authUser) {

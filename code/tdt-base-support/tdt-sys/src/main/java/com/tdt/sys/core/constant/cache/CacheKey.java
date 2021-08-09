@@ -18,7 +18,7 @@ package com.tdt.sys.core.constant.cache;
 /**
  * 缓存标识前缀集合,常用在ConstantFactory类中
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-04-25 9:37
  */
 public interface CacheKey {

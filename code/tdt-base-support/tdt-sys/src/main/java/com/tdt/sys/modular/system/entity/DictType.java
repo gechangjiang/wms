@@ -10,7 +10,7 @@ import java.util.Date;
  * 字典类型表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-04-01
  */
 @TableName("sys_dict_type")

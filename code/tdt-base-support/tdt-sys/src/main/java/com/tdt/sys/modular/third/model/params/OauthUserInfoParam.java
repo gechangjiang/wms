@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  * 第三方用户信息表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-09
  */
 @Data

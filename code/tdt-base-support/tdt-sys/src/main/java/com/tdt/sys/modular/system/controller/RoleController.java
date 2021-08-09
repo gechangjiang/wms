@@ -57,7 +57,7 @@ import java.util.Map;
 /**
  * 角色控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年2月12日21:59:14
  */
 @Controller
@@ -75,7 +75,7 @@ public class RoleController extends BaseController {
     /**
      * 跳转到角色列表页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:30 PM
      */
     @RequestMapping("")
@@ -86,7 +86,7 @@ public class RoleController extends BaseController {
     /**
      * 跳转到添加角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:30 PM
      */
     @RequestMapping(value = "/role_add")
@@ -97,7 +97,7 @@ public class RoleController extends BaseController {
     /**
      * 跳转到修改角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @Permission
@@ -114,7 +114,7 @@ public class RoleController extends BaseController {
     /**
      * 跳转到权限分配
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @Permission
@@ -130,7 +130,7 @@ public class RoleController extends BaseController {
     /**
      * 获取角色列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @Permission
@@ -145,7 +145,7 @@ public class RoleController extends BaseController {
     /**
      * 角色新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping(value = "/add")
@@ -160,7 +160,7 @@ public class RoleController extends BaseController {
     /**
      * 角色修改
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping(value = "/edit")
@@ -175,7 +175,7 @@ public class RoleController extends BaseController {
     /**
      * 删除角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping(value = "/remove")
@@ -194,7 +194,7 @@ public class RoleController extends BaseController {
     /**
      * 查看角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping(value = "/view/{roleId}")
@@ -216,7 +216,7 @@ public class RoleController extends BaseController {
     /**
      * 配置权限
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping("/setAuthority")
@@ -234,7 +234,7 @@ public class RoleController extends BaseController {
     /**
      * 获取角色列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping(value = "/roleTreeList")
@@ -248,7 +248,7 @@ public class RoleController extends BaseController {
     /**
      * 获取角色列表，通过用户id
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping(value = "/roleTreeListByUserId/{userId}")

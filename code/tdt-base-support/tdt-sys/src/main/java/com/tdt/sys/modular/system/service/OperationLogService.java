@@ -14,7 +14,7 @@ import java.util.Map;
  * 操作日志 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -23,7 +23,7 @@ public class OperationLogService extends ServiceImpl<OperationLogMapper, Operati
     /**
      * 获取操作日志列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:41 PM
      */
     public List<Map<String, Object>> getOperationLogs(Page page, String beginTime, String endTime, String logName, String s) {

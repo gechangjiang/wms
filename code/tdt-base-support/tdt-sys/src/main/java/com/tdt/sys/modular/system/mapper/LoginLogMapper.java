@@ -14,7 +14,7 @@ import java.util.Map;
  * 登录记录 Mapper 接口
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 public interface LoginLogMapper extends BaseMapper<LoginLog> {

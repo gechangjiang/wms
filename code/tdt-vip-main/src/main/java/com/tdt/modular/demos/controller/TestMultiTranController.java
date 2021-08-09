@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 测试多数据源回滚
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2018/7/20 23:39
  */
 @RestController

@@ -27,7 +27,7 @@ import java.util.Map;
 /**
  * 菜单列表的包装类
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年2月19日15:07:29
  */
 public class MenuWrapper extends BaseControllerWrapper {

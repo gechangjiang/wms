@@ -18,7 +18,7 @@ package com.tdt.base.dict;
 /**
  * 系统相关的字典
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-05-06 15:48
  */
 public class SystemDict extends AbstractDictMap {

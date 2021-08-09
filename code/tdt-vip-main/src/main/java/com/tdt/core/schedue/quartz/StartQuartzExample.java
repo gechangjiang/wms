@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 /**
  * quartz的启动示例
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/2/24 16:55
  */
 public class StartQuartzExample implements CommandLineRunner {

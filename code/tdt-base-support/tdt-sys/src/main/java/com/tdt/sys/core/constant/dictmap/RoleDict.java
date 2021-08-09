@@ -20,7 +20,7 @@ import com.tdt.base.dict.AbstractDictMap;
 /**
  * 角色的字典
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-05-06 15:01
  */
 public class RoleDict extends AbstractDictMap {

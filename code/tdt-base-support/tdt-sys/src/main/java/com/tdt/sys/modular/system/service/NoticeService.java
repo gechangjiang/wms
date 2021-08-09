@@ -14,7 +14,7 @@ import java.util.Map;
  * 通知表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -23,7 +23,7 @@ public class NoticeService extends ServiceImpl<NoticeMapper, Notice> {
     /**
      * 获取通知列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:05 PM
      */
     public Page<Map<String, Object>> list(String condition) {

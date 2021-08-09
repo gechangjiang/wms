@@ -18,7 +18,7 @@ package com.tdt.sys.core.constant.state;
 /**
  * 日志类型
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年1月22日 下午12:14:59
  */
 public enum LogType {

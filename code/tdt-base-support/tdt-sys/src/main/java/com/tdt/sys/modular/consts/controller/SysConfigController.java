@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * 参数配置控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-06-20 14:32:21
  */
 @Controller
@@ -33,7 +33,7 @@ public class SysConfigController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @RequestMapping("")
@@ -44,7 +44,7 @@ public class SysConfigController extends BaseController {
     /**
      * 新增页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @RequestMapping("/add")
@@ -55,7 +55,7 @@ public class SysConfigController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @RequestMapping("/edit")
@@ -66,7 +66,7 @@ public class SysConfigController extends BaseController {
     /**
      * 新增接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @RequestMapping("/addItem")
@@ -79,7 +79,7 @@ public class SysConfigController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @RequestMapping("/editItem")
@@ -92,7 +92,7 @@ public class SysConfigController extends BaseController {
     /**
      * 删除接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @RequestMapping("/delete")
@@ -105,7 +105,7 @@ public class SysConfigController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @RequestMapping("/detail")
@@ -118,7 +118,7 @@ public class SysConfigController extends BaseController {
     /**
      * 查询列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-20
      */
     @ResponseBody

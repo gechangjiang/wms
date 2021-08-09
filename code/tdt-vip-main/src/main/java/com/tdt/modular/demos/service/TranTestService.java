@@ -13,7 +13,7 @@ import java.util.Date;
  * 测试数据源能否回滚的例子
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service

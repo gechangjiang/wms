@@ -51,7 +51,7 @@ import java.util.Map;
 /**
  * 通知控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017-05-09 23:02:21
  */
 @Controller
@@ -66,7 +66,7 @@ public class NoticeController extends BaseController {
     /**
      * 跳转到通知列表首页
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping("")
@@ -77,7 +77,7 @@ public class NoticeController extends BaseController {
     /**
      * 跳转到添加通知
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping("/notice_add")
@@ -88,7 +88,7 @@ public class NoticeController extends BaseController {
     /**
      * 跳转到修改通知
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping("/notice_update/{noticeId}")
@@ -102,7 +102,7 @@ public class NoticeController extends BaseController {
     /**
      * 获取通知列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping(value = "/list")
@@ -116,7 +116,7 @@ public class NoticeController extends BaseController {
     /**
      * 新增通知
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping(value = "/add")
@@ -135,7 +135,7 @@ public class NoticeController extends BaseController {
     /**
      * 删除通知
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping(value = "/delete")
@@ -154,7 +154,7 @@ public class NoticeController extends BaseController {
     /**
      * 修改通知
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping(value = "/update")

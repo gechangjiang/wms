@@ -20,7 +20,7 @@ import lombok.Data;
 /**
  * jquery ztree 插件的节点
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年2月17日 下午8:25:14
  */
 @Data
@@ -59,7 +59,7 @@ public class ZTreeNode {
     /**
      * 创建ztree的父级节点
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:51 PM
      */
     public static ZTreeNode createParent() {

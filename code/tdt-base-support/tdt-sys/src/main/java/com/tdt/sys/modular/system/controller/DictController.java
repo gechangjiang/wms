@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 基础字典控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-03-13 13:53:53
  */
 @Controller
@@ -43,7 +43,7 @@ public class DictController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("")
@@ -63,7 +63,7 @@ public class DictController extends BaseController {
     /**
      * 新增页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/add")
@@ -83,7 +83,7 @@ public class DictController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/edit")
@@ -110,7 +110,7 @@ public class DictController extends BaseController {
     /**
      * 新增接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/addItem")
@@ -123,7 +123,7 @@ public class DictController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/editItem")
@@ -136,7 +136,7 @@ public class DictController extends BaseController {
     /**
      * 删除接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/delete")
@@ -149,7 +149,7 @@ public class DictController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @RequestMapping("/detail")
@@ -162,7 +162,7 @@ public class DictController extends BaseController {
     /**
      * 查询列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @ResponseBody
@@ -174,7 +174,7 @@ public class DictController extends BaseController {
     /**
      * 获取某个字典类型下的所有字典
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @ResponseBody
@@ -187,7 +187,7 @@ public class DictController extends BaseController {
     /**
      * 获取某个字典类型下的所有字典
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @ResponseBody
@@ -200,7 +200,7 @@ public class DictController extends BaseController {
     /**
      * 获取某个类型下字典树的列表，ztree格式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:56 PM
      */
     @RequestMapping(value = "/ztree")

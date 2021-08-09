@@ -6,7 +6,7 @@ import cn.stylefeng.roses.kernel.model.exception.ServiceException;
 /**
  * 第三方登录异常
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/6/9 18:43
  */
 public class OAuthLoginException extends ServiceException {

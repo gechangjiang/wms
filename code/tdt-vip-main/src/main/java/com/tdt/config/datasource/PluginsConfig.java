@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * mp的插件拓展和资源扫描
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/5/10 21:33
  */
 @Configuration
@@ -22,7 +22,7 @@ public class PluginsConfig {
     /**
      * 拓展核心包中的字段包装器
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/5/10 21:35
      */
     @Bean

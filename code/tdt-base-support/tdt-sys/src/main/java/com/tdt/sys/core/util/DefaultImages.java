@@ -9,7 +9,7 @@ import com.tdt.sys.core.shiro.ShiroKit;
 /**
  * 获取默认图片地址
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2018-10-30-5:50 PM
  */
 public class DefaultImages {
@@ -17,7 +17,7 @@ public class DefaultImages {
     /**
      * 默认的登录页面背景
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/10/30 5:51 PM
      */
     public static String loginBg() {
@@ -27,7 +27,7 @@ public class DefaultImages {
     /**
      * 默认的用户图片的base64编码
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/10/30 5:51 PM
      */
     public static String defaultAvatarUrl() {
@@ -41,7 +41,7 @@ public class DefaultImages {
     /**
      * 默认的404错误页面背景
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/10/30 5:51 PM
      */
     public static String error404() {

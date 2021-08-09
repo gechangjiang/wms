@@ -35,7 +35,7 @@ import java.util.Map;
 /**
  * excel导入导出示例
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/3/9 11:03
  */
 @Controller
@@ -51,7 +51,7 @@ public class ExcelController {
     /**
      * excel导入页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/3/9 11:03
      */
     @RequestMapping("/import")
@@ -109,7 +109,7 @@ public class ExcelController {
     /**
      * excel导出
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/3/9 11:03
      */
     @RequestMapping("/export")

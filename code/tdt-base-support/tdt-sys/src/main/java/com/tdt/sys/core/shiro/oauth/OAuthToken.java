@@ -6,7 +6,7 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 /**
  * token登陆类型
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/6/9 17:25
  */
 @Data

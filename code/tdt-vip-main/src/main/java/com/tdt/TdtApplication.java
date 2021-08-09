@@ -25,8 +25,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * SpringBoot方式启动类
  *
- * @author www.qiqucode.com
- * @Date 2017/5/21 12:06
+ * @author gcj
+ * @Date 2019/08/19
  */
 @SpringBootApplication(exclude = {WebAutoConfiguration.class, MybatisDataSourceAutoConfiguration.class})
 public class TdtApplication {

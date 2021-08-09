@@ -12,7 +12,7 @@ import java.util.List;
  * 基础字典 Mapper 接口
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-03-13
  */
 public interface DictMapper extends BaseMapper<Dict> {

@@ -9,7 +9,7 @@ import java.io.Serializable;
  * Guns复杂表单的示例
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-02-18
  */
 @Data

@@ -15,7 +15,7 @@ import java.util.Map;
  * 菜单表 Mapper 接口
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 public interface MenuMapper extends BaseMapper<Menu> {
@@ -91,7 +91,7 @@ public interface MenuMapper extends BaseMapper<Menu> {
     /**
      * 查询菜单树形列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/23 22:03
      */
     List<Map<String, Object>> selectMenuTree(@Param("condition") String condition, @Param("level") String level);
@@ -99,7 +99,7 @@ public interface MenuMapper extends BaseMapper<Menu> {
     /**
      * 获取pcodes like某个code的菜单列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/3/31 15:51
      */
     List<Menu> getMenusLikePcodes(@Param("code") String code);

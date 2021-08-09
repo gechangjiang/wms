@@ -55,7 +55,7 @@ import java.util.Map;
 /**
  * 部门控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年2月17日20:27:22
  */
 @Controller
@@ -70,7 +70,7 @@ public class DeptController extends BaseController {
     /**
      * 跳转到部门管理首页
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:56 PM
      */
     @RequestMapping("")
@@ -81,7 +81,7 @@ public class DeptController extends BaseController {
     /**
      * 跳转到添加部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:56 PM
      */
     @RequestMapping("/dept_add")
@@ -91,7 +91,7 @@ public class DeptController extends BaseController {
 /**
      * 跳转到权限分配
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @Permission
@@ -106,7 +106,7 @@ public class DeptController extends BaseController {
     /**
      * 跳转到修改部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:56 PM
      */
     @Permission
@@ -127,7 +127,7 @@ public class DeptController extends BaseController {
     /**
      * 获取部门的tree列表，ztree格式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:56 PM
      */
     @RequestMapping(value = "/tree")
@@ -141,7 +141,7 @@ public class DeptController extends BaseController {
     /**
      * 获取部门的tree列表，treeview格式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:57 PM
      */
     @RequestMapping(value = "/treeview")
@@ -163,7 +163,7 @@ public class DeptController extends BaseController {
     /**
      * 新增部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:57 PM
      */
     @BussinessLog(value = "添加部门", key = "simpleName", dict = DeptDict.class)
@@ -178,7 +178,7 @@ public class DeptController extends BaseController {
     /**
      * 获取所有部门列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:57 PM
      */
     @RequestMapping(value = "/list")
@@ -194,7 +194,7 @@ public class DeptController extends BaseController {
     /**
      * 部门详情
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:57 PM
      */
     @RequestMapping(value = "/detail/{deptId}")
@@ -211,7 +211,7 @@ public class DeptController extends BaseController {
     /**
      * 修改部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:57 PM
      */
     @BussinessLog(value = "修改部门", key = "simpleName", dict = DeptDict.class)
@@ -226,7 +226,7 @@ public class DeptController extends BaseController {
     /**
      * 删除部门
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 4:57 PM
      */
     @BussinessLog(value = "删除部门", key = "deptId", dict = DeptDict.class)
@@ -245,7 +245,7 @@ public class DeptController extends BaseController {
 /**
      * 配置权限
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:31 PM
      */
     @RequestMapping("/setAuthority")

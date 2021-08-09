@@ -29,7 +29,7 @@ import java.util.Map;
 /**
  * 用户管理的包装类
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年2月13日 下午10:47:03
  */
 public class UserWrapper extends BaseControllerWrapper {

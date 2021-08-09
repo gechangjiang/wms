@@ -9,7 +9,7 @@ import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 /**
  * 定时任务自动配置(需要定时任务的可以放开注释)
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/2/24 16:23
  */
 //@Configuration
@@ -19,7 +19,7 @@ public class SchedulingConfig {
     /**
      * 定时任务执行测试,注意在Application上加@EnableScheduling
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/3/27 2:48 PM
      */
     @Bean
@@ -30,7 +30,7 @@ public class SchedulingConfig {
     /**
      * quartz方式，配置Scheduler实例
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/2/24 19:03
      */
     @Bean
@@ -41,7 +41,7 @@ public class SchedulingConfig {
     /**
      * 启动quartz的示例
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/3/27 3:34 PM
      */
     @Bean

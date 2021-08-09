@@ -56,7 +56,7 @@ import java.util.Map;
 /**
  * 菜单控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年2月12日21:59:14
  */
 @Controller
@@ -74,7 +74,7 @@ public class MenuController extends BaseController {
     /**
      * 跳转到菜单列表列表页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @RequestMapping("")
@@ -85,7 +85,7 @@ public class MenuController extends BaseController {
     /**
      * 跳转到菜单列表列表页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @RequestMapping(value = "/menu_add")
@@ -96,7 +96,7 @@ public class MenuController extends BaseController {
     /**
      * 跳转到菜单详情列表页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @Permission(Const.ADMIN_NAME)
@@ -116,7 +116,7 @@ public class MenuController extends BaseController {
     /**
      * 修该菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @Permission(Const.ADMIN_NAME)
@@ -137,7 +137,7 @@ public class MenuController extends BaseController {
     /**
      * 获取菜单列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @Permission(Const.ADMIN_NAME)
@@ -154,7 +154,7 @@ public class MenuController extends BaseController {
     /**
      * 获取菜单列表（s树形）
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019年2月23日22:01:47
      */
     @Permission(Const.ADMIN_NAME)
@@ -173,7 +173,7 @@ public class MenuController extends BaseController {
     /**
      * 新增菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @Permission(Const.ADMIN_NAME)
@@ -188,7 +188,7 @@ public class MenuController extends BaseController {
     /**
      * 删除菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @Permission(Const.ADMIN_NAME)
@@ -211,7 +211,7 @@ public class MenuController extends BaseController {
     /**
      * 查看菜单
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @RequestMapping(value = "/view/{menuId}")
@@ -227,7 +227,7 @@ public class MenuController extends BaseController {
     /**
      * 获取菜单信息
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:53 PM
      */
     @RequestMapping(value = "/getMenuInfo")
@@ -252,7 +252,7 @@ public class MenuController extends BaseController {
     /**
      * 获取菜单列表(首页用)
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:54 PM
      */
     @RequestMapping(value = "/menuTreeList")
@@ -264,7 +264,7 @@ public class MenuController extends BaseController {
     /**
      * 获取菜单列表(选择父级菜单用)
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:54 PM
      */
     @RequestMapping(value = "/selectMenuTreeList")
@@ -278,7 +278,7 @@ public class MenuController extends BaseController {
     /**
      * 获取角色的菜单列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:54 PM
      */
     @RequestMapping(value = "/menuTreeListByRoleId/{roleId}")

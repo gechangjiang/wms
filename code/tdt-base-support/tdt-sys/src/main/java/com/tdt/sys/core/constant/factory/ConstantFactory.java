@@ -41,7 +41,7 @@ import java.util.Map;
 /**
  * 快捷查询方法
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年2月13日 下午10:55:21
  */
 @Component

@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 基础字典
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-03-13
  */
 @Data

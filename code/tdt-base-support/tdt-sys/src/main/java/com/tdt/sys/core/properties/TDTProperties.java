@@ -11,7 +11,7 @@ import static cn.stylefeng.roses.core.util.ToolUtil.getTempPath;
 /**
  * tdt项目配置
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017/5/23 22:31
  */
 @Data

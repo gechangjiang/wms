@@ -60,7 +60,7 @@ import java.util.UUID;
 /**
  * 系统管理员控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年1月11日 下午1:08:17
  */
 @Controller
@@ -78,7 +78,7 @@ public class UserMgrController extends BaseController {
     /**
      * 跳转到查看管理员列表的页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("")
@@ -89,7 +89,7 @@ public class UserMgrController extends BaseController {
     /**
      * 跳转到查看管理员列表的页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/user_add")
@@ -100,7 +100,7 @@ public class UserMgrController extends BaseController {
     /**
      * 跳转到角色分配页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @Permission
@@ -116,7 +116,7 @@ public class UserMgrController extends BaseController {
     /**
      * 跳转到编辑管理员页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @Permission
@@ -133,7 +133,7 @@ public class UserMgrController extends BaseController {
     /**
      * 获取用户详情
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/getUserInfo")
@@ -151,7 +151,7 @@ public class UserMgrController extends BaseController {
     /**
      * 修改当前用户的密码
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/changePwd")
@@ -167,7 +167,7 @@ public class UserMgrController extends BaseController {
     /**
      * 查询管理员列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/list")
@@ -202,7 +202,7 @@ public class UserMgrController extends BaseController {
     /**
      * 添加管理员
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/add")
@@ -220,7 +220,7 @@ public class UserMgrController extends BaseController {
     /**
      * 修改管理员
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/edit")
@@ -237,7 +237,7 @@ public class UserMgrController extends BaseController {
     /**
      * 删除管理员（逻辑删除）
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/delete")
@@ -255,7 +255,7 @@ public class UserMgrController extends BaseController {
     /**
      * 查看管理员详情
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/view/{userId}")
@@ -271,7 +271,7 @@ public class UserMgrController extends BaseController {
     /**
      * 重置管理员的密码
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/reset")
@@ -293,7 +293,7 @@ public class UserMgrController extends BaseController {
     /**
      * 冻结用户
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/freeze")
@@ -316,7 +316,7 @@ public class UserMgrController extends BaseController {
     /**
      * 解除冻结用户
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/unfreeze")
@@ -335,7 +335,7 @@ public class UserMgrController extends BaseController {
     /**
      * 分配角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping("/setRole")
@@ -358,7 +358,7 @@ public class UserMgrController extends BaseController {
     /**
      * 上传图片
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     @RequestMapping(method = RequestMethod.POST, path = "/upload")

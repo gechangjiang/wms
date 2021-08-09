@@ -27,7 +27,7 @@ import java.util.List;
 /**
  * mybatis的一些配置收集
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-06-15-18:30
  */
 @Data

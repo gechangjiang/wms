@@ -6,7 +6,7 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 /**
  * quartz的执行示例
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/2/24 16:55
  */
 public class SampleQuartzJob extends QuartzJobBean {

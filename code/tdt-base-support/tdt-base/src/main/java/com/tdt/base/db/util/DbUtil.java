@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * 数据库操作工具类
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/1/13 18:34
  */
 @Slf4j
@@ -25,7 +25,7 @@ public class DbUtil {
     /**
      * 查询某个数据库连接的所有表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-05-04 20:30
      */
     public static List<Map<String, Object>> selectTables(DatabaseInfo dbInfo) {
@@ -58,7 +58,7 @@ public class DbUtil {
     /**
      * 查询某个表的所有字段
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-05-04 20:31
      */
     public static List<Map<String, Object>> getTableFields(DatabaseInfo dbInfo, String tableName) {

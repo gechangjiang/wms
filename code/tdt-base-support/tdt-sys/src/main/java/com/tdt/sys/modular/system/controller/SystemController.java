@@ -53,7 +53,7 @@ import java.util.List;
 /**
  * 通用控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年2月17日20:27:22
  */
 @Controller
@@ -73,7 +73,7 @@ public class SystemController extends BaseController {
     /**
      * 控制台页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/console")
@@ -84,7 +84,7 @@ public class SystemController extends BaseController {
     /**
      * 分析页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/console2")
@@ -95,7 +95,7 @@ public class SystemController extends BaseController {
     /**
      * 系统硬件信息页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/systemInfo")
@@ -112,7 +112,7 @@ public class SystemController extends BaseController {
     /**
      * 跳转到首页通知
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:06 PM
      */
     @RequestMapping("/notice")
@@ -125,7 +125,7 @@ public class SystemController extends BaseController {
     /**
      * 主页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/1/24 3:38 PM
      */
     @RequestMapping("/welcome")
@@ -136,7 +136,7 @@ public class SystemController extends BaseController {
     /**
      * 主题页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/1/24 3:38 PM
      */
     @RequestMapping("/theme")
@@ -147,7 +147,7 @@ public class SystemController extends BaseController {
     /**
      * 跳转到修改密码界面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/user_chpwd")
@@ -158,7 +158,7 @@ public class SystemController extends BaseController {
     /**
      * 个人消息列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/message")
@@ -169,7 +169,7 @@ public class SystemController extends BaseController {
     /**
      * 跳转到查看用户详情页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:43
      */
     @RequestMapping("/user_info")
@@ -187,7 +187,7 @@ public class SystemController extends BaseController {
     /**
      * 通用的树列表选择器
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:59 PM
      */
     @RequestMapping("/commonTree")
@@ -213,7 +213,7 @@ public class SystemController extends BaseController {
     /**
      * 更新头像
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/11/9 12:45 PM
      */
     @RequestMapping("/updateAvatar")
@@ -232,7 +232,7 @@ public class SystemController extends BaseController {
     /**
      * 预览头像
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/11/9 12:45 PM
      */
     @RequestMapping("/previewAvatar")
@@ -254,7 +254,7 @@ public class SystemController extends BaseController {
     /**
      * 获取当前用户详情
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:59 PM
      */
     @RequestMapping("/currentUserInfo")
@@ -272,7 +272,7 @@ public class SystemController extends BaseController {
     /**
      * layui上传组件 通用文件上传接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-2-23 10:48:29
      */
     @RequestMapping(method = RequestMethod.POST, path = "/upload")

@@ -18,7 +18,7 @@ package com.tdt.sys.core.constant.state;
 /**
  * 菜单是否打开的状态
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年4月8日10:12:15
  */
 public enum MenuOpenStatus {

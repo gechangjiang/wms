@@ -24,7 +24,7 @@ import java.util.Map;
 /**
  * 常量生产工厂的接口
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-06-14 21:12
  */
 public interface IConstantFactory {
@@ -32,7 +32,7 @@ public interface IConstantFactory {
     /**
      * 根据用户id获取用户名称
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2017/5/9 23:41
      */
     String getUserNameById(Long userId);
@@ -40,7 +40,7 @@ public interface IConstantFactory {
     /**
      * 根据用户id获取用户账号
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @date 2017年5月16日21:55:371
      */
     String getUserAccountById(Long userId);

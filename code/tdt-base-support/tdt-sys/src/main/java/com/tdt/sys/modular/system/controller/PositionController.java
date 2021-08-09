@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * 职位表控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-06-27 21:33:47
  */
 @Controller
@@ -39,7 +39,7 @@ public class PositionController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @RequestMapping("")
@@ -50,7 +50,7 @@ public class PositionController extends BaseController {
     /**
      * 新增页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @RequestMapping("/add")
@@ -61,7 +61,7 @@ public class PositionController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @RequestMapping("/edit")
@@ -72,7 +72,7 @@ public class PositionController extends BaseController {
     /**
      * 新增接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @RequestMapping("/addItem")
@@ -85,7 +85,7 @@ public class PositionController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @RequestMapping("/editItem")
@@ -98,7 +98,7 @@ public class PositionController extends BaseController {
     /**
      * 删除接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @RequestMapping("/delete")
@@ -111,7 +111,7 @@ public class PositionController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @RequestMapping("/detail")
@@ -124,7 +124,7 @@ public class PositionController extends BaseController {
     /**
      * 查询列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @ResponseBody
@@ -143,7 +143,7 @@ public class PositionController extends BaseController {
     /**
      * 修改状态
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-27
      */
     @ResponseBody
@@ -170,7 +170,7 @@ public class PositionController extends BaseController {
     /**
      * 查询所有职位
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @ResponseBody

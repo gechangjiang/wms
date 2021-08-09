@@ -16,7 +16,7 @@ import static com.tdt.base.db.context.DataSourceContext.MASTER_DATASOURCE_NAME;
 /**
  * mybatis的sqlSessionFactory的上下文容器(单例)
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-06-12-13:37
  */
 public class SqlSessionFactoryContext {
@@ -26,7 +26,7 @@ public class SqlSessionFactoryContext {
     /**
      * 添加sqlSessionFactory
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-12 15:28
      */
     public static void addSqlSessionFactory(String name, SqlSessionFactory sqlSessionFactory) {
@@ -36,7 +36,7 @@ public class SqlSessionFactoryContext {
     /**
      * 添加sqlSessionFactory
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-12 15:28
      */
     public static void addSqlSessionFactory(String name, DatabaseInfo databaseInfo) {
@@ -59,7 +59,7 @@ public class SqlSessionFactoryContext {
     /**
      * 获取所有的sqlSessionFactory
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-12 13:49
      */
     public static Map<Object, SqlSessionFactory> getSqlSessionFactorys() {
@@ -69,7 +69,7 @@ public class SqlSessionFactoryContext {
     /**
      * 初始化数据库中的数据源的SqlSessionFactory
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-15 19:51
      */
     public static void initBaseSqlSessionFactory(SqlSessionFactoryCreator sqlSessionFactoryCreator) {

@@ -7,7 +7,7 @@ import java.net.UnknownHostException;
 /**
  * ip工具类
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2018/9/27 上午10:47
  */
 public class IpInfoUtils {

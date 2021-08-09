@@ -7,7 +7,7 @@ import me.zhyd.oauth.request.*;
 /**
  * OAuth2 请求的构建器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/6/9 16:49
  */
 public class OAuthRequestFactory {
@@ -20,7 +20,7 @@ public class OAuthRequestFactory {
     /**
      * 根据具体的授权来源，获取授权请求工具类
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 16:49
      */
     public static AuthRequest getAuthRequest(String source) {

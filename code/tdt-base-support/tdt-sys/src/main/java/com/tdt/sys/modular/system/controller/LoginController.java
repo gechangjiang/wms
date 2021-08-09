@@ -46,7 +46,7 @@ import static cn.stylefeng.roses.core.util.HttpContext.getIp;
 /**
  * 登录控制器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年1月10日 下午8:25:24
  */
 @Controller
@@ -58,7 +58,7 @@ public class LoginController extends BaseController {
     /**
      * 跳转到主页
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:41 PM
      */
     @RequestMapping(value = "/", method = RequestMethod.GET)
@@ -93,7 +93,7 @@ public class LoginController extends BaseController {
     /**
      * 跳转到登录页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:41 PM
      */
     @RequestMapping(value = "/choose")
@@ -107,7 +107,7 @@ public class LoginController extends BaseController {
     /**
      * 跳转到登录页面
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:41 PM
      */
     @RequestMapping(value = "/login", method = RequestMethod.GET)
@@ -122,7 +122,7 @@ public class LoginController extends BaseController {
     /**
      * 点击登录执行的动作
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:42 PM
      */
     @RequestMapping(value = "/login", method = RequestMethod.POST)
@@ -166,7 +166,7 @@ public class LoginController extends BaseController {
     /**
      * 退出登录
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 5:42 PM
      */
     @RequestMapping(value = "/logout", method = RequestMethod.GET)

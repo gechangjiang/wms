@@ -14,7 +14,7 @@ import java.util.Date;
 /**
  * 默认的string to date的转化
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/2/12 20:09
  */
 @Configuration

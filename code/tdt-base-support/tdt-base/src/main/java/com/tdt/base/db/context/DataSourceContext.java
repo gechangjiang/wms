@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 数据源的上下文容器(单例)
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-06-12-13:37
  */
 public class DataSourceContext {
@@ -29,7 +29,7 @@ public class DataSourceContext {
     /**
      * 初始化所有dataSource
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-12 13:48
      */
     public static void initDataSource(DruidProperties masterDataSourceProperties) {
@@ -59,7 +59,7 @@ public class DataSourceContext {
     /**
      * 新增datasource
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-12 14:51
      */
     public static void addDataSource(String dbName, DataSource dataSource) {
@@ -69,7 +69,7 @@ public class DataSourceContext {
     /**
      * 获取数据源
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-12 13:50
      */
     public static Map<String, DataSource> getDataSources() {

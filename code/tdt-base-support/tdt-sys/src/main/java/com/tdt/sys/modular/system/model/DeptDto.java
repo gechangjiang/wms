@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 字典信息
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2018/12/8 18:16
  */
 @Data

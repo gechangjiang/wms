@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * jquery ztree 插件的节点
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017年2月17日 下午8:25:14
  */
 @Data

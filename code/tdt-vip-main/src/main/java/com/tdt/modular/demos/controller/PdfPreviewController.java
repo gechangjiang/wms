@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * pdf预览
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年2月17日20:27:22
  */
 @Controller

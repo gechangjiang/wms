@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 默认第三方登录逻辑
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/6/9 18:16
  */
 @Service
@@ -74,7 +74,7 @@ public class DefaultLoginService implements LoginService {
     /**
      * 绑定当前用户的source和openId
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 18:51
      */
     private void bindOAuthUser(Long userId, AuthUser oauthUser) {
@@ -100,7 +100,7 @@ public class DefaultLoginService implements LoginService {
     /**
      * 通过第三方登录的信息创建本系统用户
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 19:07
      */
     private String getOauthUserAccount(AuthUser oauthUser) {

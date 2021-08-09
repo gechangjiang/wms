@@ -30,7 +30,7 @@ import static com.tdt.sys.core.exception.enums.BizExceptionEnum.ALREADY_CONSTANT
  * 参数配置 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-20
  */
 @Service

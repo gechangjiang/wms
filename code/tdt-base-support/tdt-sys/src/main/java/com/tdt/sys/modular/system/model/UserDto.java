@@ -23,7 +23,7 @@ import java.util.Date;
 /**
  * 用户传输bean
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017/5/5 22:40
  */
 @Data

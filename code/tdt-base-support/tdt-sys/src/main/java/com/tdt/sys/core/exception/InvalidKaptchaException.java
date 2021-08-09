@@ -18,7 +18,7 @@ package com.tdt.sys.core.exception;
 /**
  * 验证码错误异常
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2017-05-05 23:52
  */
 public class InvalidKaptchaException extends RuntimeException {

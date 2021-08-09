@@ -18,7 +18,7 @@ package com.tdt.sys.core.constant.state;
 /**
  * 业务是否成功的日志记录
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2017年1月22日 下午12:14:59
  */
 public enum LogSucceed {

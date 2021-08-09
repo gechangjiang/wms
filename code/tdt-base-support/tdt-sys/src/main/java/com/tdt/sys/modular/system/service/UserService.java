@@ -43,7 +43,7 @@ import java.util.Map;
  * 管理员表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -61,7 +61,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 添加用戶
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:51
      */
     @Transactional(rollbackFor = Exception.class)
@@ -87,7 +87,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 修改用户
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:53
      */
     @Transactional(rollbackFor = Exception.class)
@@ -116,7 +116,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 删除用户
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:54
      */
     @Transactional(rollbackFor = Exception.class)
@@ -139,7 +139,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 修改用户状态
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:45
      */
     public int setStatus(Long userId, String status) {
@@ -149,7 +149,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 修改密码
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:45
      */
     public void changePwd(String oldPassword, String newPassword) {
@@ -170,7 +170,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 根据条件查询用户列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:45
      */
     public Page<Map<String, Object>> selectUsers(DataScope dataScope, String name, String beginTime, String endTime, Long deptId) {
@@ -181,7 +181,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 设置用户的角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:45
      */
     public int setRoles(Long userId, String roleIds) {
@@ -191,7 +191,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 通过账号获取用户
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:46
      */
     public User getByAccount(String account) {
@@ -201,7 +201,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 获取用户菜单列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:46
      */
     public List<Map<String, Object>> getUserMenuNodes(List<Long> roleList) {
@@ -243,7 +243,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 获取用户菜单列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:46
      */
     public List<Map<String, Object>> getWarehouses(List<Long> warehouseList) {
@@ -252,7 +252,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 判断当前登录的用户是否有操作这个用户的权限
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/24 22:44
      */
     public void assertAuth(Long userId) {
@@ -273,7 +273,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 刷新当前登录用户的信息
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/1/19 5:59 PM
      */
     public void refreshCurrentUser() {
@@ -288,7 +288,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 获取用户的基本信息
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-05-04 17:12
      */
     public Map<String, Object> getUserInfo(Long userId) {
@@ -307,7 +307,7 @@ public class UserService extends ServiceImpl<UserMapper, User> {
     /**
      * 添加职位关联
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-28 13:35
      */
     private void addPosition(String positions, Long userId) {

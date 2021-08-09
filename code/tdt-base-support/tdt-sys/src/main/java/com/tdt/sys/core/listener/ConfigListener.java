@@ -24,7 +24,7 @@ import java.util.Map;
 /**
  * ServletContext监听器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2018/2/22 21:07
  */
 public class ConfigListener implements ServletContextListener {

@@ -26,7 +26,7 @@ import java.util.List;
  * 数据库信息表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-15
  */
 @Service

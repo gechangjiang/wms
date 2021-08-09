@@ -15,7 +15,7 @@ import java.util.List;
  * 参数配置 服务类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-20
  */
 @Component

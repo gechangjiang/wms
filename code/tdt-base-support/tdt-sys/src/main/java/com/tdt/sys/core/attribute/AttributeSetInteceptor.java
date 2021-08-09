@@ -29,7 +29,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 自动渲染当前用户信息登录属性 的过滤器
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2018/10/30 4:30 PM
  */
 public class AttributeSetInteceptor extends HandlerInterceptorAdapter {

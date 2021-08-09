@@ -11,7 +11,7 @@ import java.io.Serializable;
  * 用户职位关联表
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-28
  */
 @TableName("sys_user_pos")

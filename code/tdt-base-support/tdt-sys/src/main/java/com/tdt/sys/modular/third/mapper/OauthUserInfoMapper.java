@@ -18,7 +18,7 @@ import java.util.Map;
  * 第三方用户信息表 Mapper 接口
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-06-09
  */
 public interface OauthUserInfoMapper extends BaseMapper<OauthUserInfo> {
@@ -26,7 +26,7 @@ public interface OauthUserInfoMapper extends BaseMapper<OauthUserInfo> {
     /**
      * 获取列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     List<OauthUserInfoResult> customList(@Param("paramCondition") OauthUserInfoParam paramCondition);
@@ -34,7 +34,7 @@ public interface OauthUserInfoMapper extends BaseMapper<OauthUserInfo> {
     /**
      * 获取map列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     List<Map<String, Object>> customMapList(@Param("paramCondition") OauthUserInfoParam paramCondition);
@@ -42,7 +42,7 @@ public interface OauthUserInfoMapper extends BaseMapper<OauthUserInfo> {
     /**
      * 获取分页实体列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     Page<OauthUserInfoResult> customPageList(@Param("page") Page page, @Param("paramCondition") OauthUserInfoParam paramCondition);
@@ -50,7 +50,7 @@ public interface OauthUserInfoMapper extends BaseMapper<OauthUserInfo> {
     /**
      * 获取分页map列表
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-06-09
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") OauthUserInfoParam paramCondition);

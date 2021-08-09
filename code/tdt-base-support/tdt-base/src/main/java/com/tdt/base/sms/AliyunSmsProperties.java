@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * oss相关配置
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2018-06-27-下午1:20
  */
 @Data

@@ -29,7 +29,7 @@ import java.util.List;
  * 字典类型表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-03-13
  */
 @Service
@@ -41,7 +41,7 @@ public class DictTypeService extends ServiceImpl<DictTypeMapper, DictType> {
     /**
      * 新增
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public void add(DictTypeParam param) {
@@ -65,7 +65,7 @@ public class DictTypeService extends ServiceImpl<DictTypeMapper, DictType> {
     /**
      * 删除
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     @Transactional(rollbackFor = Exception.class)
@@ -85,7 +85,7 @@ public class DictTypeService extends ServiceImpl<DictTypeMapper, DictType> {
     /**
      * 更新
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public void update(DictTypeParam param) {
@@ -108,7 +108,7 @@ public class DictTypeService extends ServiceImpl<DictTypeMapper, DictType> {
     /**
      * 查询单条数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public DictTypeResult findBySpec(DictTypeParam param) {
@@ -118,7 +118,7 @@ public class DictTypeService extends ServiceImpl<DictTypeMapper, DictType> {
     /**
      * 查询列表，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public List<DictTypeResult> findListBySpec(DictTypeParam param) {
@@ -128,7 +128,7 @@ public class DictTypeService extends ServiceImpl<DictTypeMapper, DictType> {
     /**
      * 查询分页数据，Specification模式
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-03-13
      */
     public LayuiPageInfo findPageBySpec(DictTypeParam param) {

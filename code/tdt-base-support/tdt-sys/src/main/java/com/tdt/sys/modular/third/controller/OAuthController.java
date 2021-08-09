@@ -24,7 +24,7 @@ import java.io.IOException;
 /**
  * OAuth统一回调地址
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/6/9 16:38
  */
 @Controller
@@ -41,7 +41,7 @@ public class OAuthController extends BaseController {
     /**
      * 第三方登录跳转
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 16:44
      */
     @RequestMapping("/render/{source}")
@@ -53,7 +53,7 @@ public class OAuthController extends BaseController {
     /**
      * 第三方登录成功后的回调地址
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 16:45
      */
     @RequestMapping("/callback/{source}")
@@ -75,7 +75,7 @@ public class OAuthController extends BaseController {
     /**
      * 第三方登录的头像
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019/6/9 16:44
      */
     @RequestMapping("/avatar")

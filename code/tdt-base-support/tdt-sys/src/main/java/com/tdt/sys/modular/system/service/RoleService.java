@@ -38,7 +38,7 @@ import java.util.*;
  * 角色表 服务实现类
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2018-12-07
  */
 @Service
@@ -56,7 +56,7 @@ public class RoleService extends ServiceImpl<RoleMapper, Role> {
     /**
      * 添加角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:40 PM
      */
     @Transactional(rollbackFor = Exception.class)
@@ -74,7 +74,7 @@ public class RoleService extends ServiceImpl<RoleMapper, Role> {
     /**
      * 编辑角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2018/12/23 6:40 PM
      */
     @Transactional(rollbackFor = Exception.class)
@@ -143,7 +143,7 @@ public class RoleService extends ServiceImpl<RoleMapper, Role> {
     /**
      * 删除角色
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2017/5/5 22:24
      */
     @Transactional(rollbackFor = Exception.class)

@@ -6,7 +6,7 @@ import java.math.BigInteger;
 /**
  * decimal变量获取
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @date 2019-04-04-17:06
  */
 public class DecimalUtil {
@@ -14,7 +14,7 @@ public class DecimalUtil {
     /**
      * 获取object的值
      *
-     * @author www.qiqucode.com
+     * @author gcj
      * @Date 2019-04-04 17:07
      */
     public static Long getLong(Object object) {

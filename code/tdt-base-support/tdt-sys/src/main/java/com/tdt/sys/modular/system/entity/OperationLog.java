@@ -13,7 +13,7 @@ import java.io.Serializable;
  * 操作日志
  * </p>
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @since 2019-04-01
  */
 @TableName("sys_operation_log")

@@ -11,7 +11,7 @@ import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 /**
  * 针对旧的shiro密码校验的拓展（带oauth token的登录校验）
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019/6/9 19:25
  */
 public class WithOAuthTokenMatcher extends HashedCredentialsMatcher {

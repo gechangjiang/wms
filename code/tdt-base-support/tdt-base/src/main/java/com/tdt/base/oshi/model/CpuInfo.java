@@ -6,7 +6,7 @@ import lombok.Setter;
 /**
  * CPU相关信息
  *
- * @author www.qiqucode.com
+ * @author gcj
  * @Date 2019-07-13 13:42
  */
 @Setter
