@@ -25,7 +25,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-09-12 15:46:19
  */
 @Controller
@@ -46,7 +46,7 @@ public class PicktaskController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("")
@@ -57,7 +57,7 @@ public class PicktaskController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("/add")
@@ -68,7 +68,7 @@ public class PicktaskController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("/edit")
@@ -79,7 +79,7 @@ public class PicktaskController extends BaseController {
     /**
      * 拣货订单明细页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("/picktaskDetail")
@@ -90,7 +90,7 @@ public class PicktaskController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("/addItem")
@@ -103,7 +103,7 @@ public class PicktaskController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("/editItem")
@@ -116,7 +116,7 @@ public class PicktaskController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("/delete")
@@ -129,7 +129,7 @@ public class PicktaskController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @RequestMapping("/detail")
@@ -142,7 +142,7 @@ public class PicktaskController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     @ResponseBody
@@ -159,7 +159,7 @@ public class PicktaskController extends BaseController {
     /**
      * 查询拣货任务与出库订单关联列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
@@ -176,7 +176,7 @@ public class PicktaskController extends BaseController {
     /**
      * 查询拣货任务明细列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
@@ -193,7 +193,7 @@ public class PicktaskController extends BaseController {
     /**
      * 点击还原按钮
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/restore")

@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-21
  */
 public interface PurchaseDetailMapper extends BaseMapper<PurchaseDetail> {
@@ -23,7 +23,7 @@ public interface PurchaseDetailMapper extends BaseMapper<PurchaseDetail> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     List<PurchaseDetailResult> customList(@Param("paramCondition") PurchaseDetailParam paramCondition);
@@ -31,7 +31,7 @@ public interface PurchaseDetailMapper extends BaseMapper<PurchaseDetail> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page,@Param("paramCondition") PurchaseDetailParam paramCondition);
@@ -46,7 +46,7 @@ public interface PurchaseDetailMapper extends BaseMapper<PurchaseDetail> {
     /**
      * 获取采购订单详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     List<Map<String, Object>> list(@Param("page") Page page,@Param("paramCondition") PurchaseDetailParam paramCondition);
@@ -54,7 +54,7 @@ public interface PurchaseDetailMapper extends BaseMapper<PurchaseDetail> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     Page<PurchaseDetailResult> customPageList(@Param("page") Page page, @Param("paramCondition") PurchaseDetailParam paramCondition);
@@ -62,7 +62,7 @@ public interface PurchaseDetailMapper extends BaseMapper<PurchaseDetail> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") PurchaseDetailParam paramCondition);

@@ -12,7 +12,7 @@ import java.util.Date;
  * 
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-09-17
  */
 @TableName("o_pick_detail")

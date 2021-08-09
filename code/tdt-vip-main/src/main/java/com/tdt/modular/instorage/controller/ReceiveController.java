@@ -34,7 +34,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-08-21 10:55:52
  */
 @Controller
@@ -52,7 +52,7 @@ public class ReceiveController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("")
@@ -65,7 +65,7 @@ public class ReceiveController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/add")
@@ -76,7 +76,7 @@ public class ReceiveController extends BaseController {
     /**
      * 订单收货明细页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/add_detail")
@@ -90,7 +90,7 @@ public class ReceiveController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/edit")
@@ -101,7 +101,7 @@ public class ReceiveController extends BaseController {
     /**
      * 接货订单详情页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/receive_detail")
@@ -113,7 +113,7 @@ public class ReceiveController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/addItem")
@@ -154,7 +154,7 @@ public class ReceiveController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/editItem")
@@ -167,7 +167,7 @@ public class ReceiveController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/delete")
@@ -180,7 +180,7 @@ public class ReceiveController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/detail")
@@ -193,7 +193,7 @@ public class ReceiveController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
@@ -210,7 +210,7 @@ public class ReceiveController extends BaseController {
     /**
      * 查询收货订单详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
@@ -227,7 +227,7 @@ public class ReceiveController extends BaseController {
     /**
      * 查看详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody

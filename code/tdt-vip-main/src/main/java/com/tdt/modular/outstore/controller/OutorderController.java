@@ -46,7 +46,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-09-10 16:41:50
  */
 @Controller
@@ -67,7 +67,7 @@ public class OutorderController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("")
@@ -80,7 +80,7 @@ public class OutorderController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("/add")
@@ -95,7 +95,7 @@ public class OutorderController extends BaseController {
     /**
      * 添加出库订单详情页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/outorder_detail_add")
@@ -108,7 +108,7 @@ public class OutorderController extends BaseController {
     /**
      * 出库订单详情页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/outorder_detail")
@@ -119,7 +119,7 @@ public class OutorderController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("/edit")
@@ -132,7 +132,7 @@ public class OutorderController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("/addItem")
@@ -185,7 +185,7 @@ public class OutorderController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("/editItem")
@@ -198,7 +198,7 @@ public class OutorderController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("/delete")
@@ -211,7 +211,7 @@ public class OutorderController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("/detail")
@@ -224,7 +224,7 @@ public class OutorderController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @ResponseBody
@@ -257,7 +257,7 @@ public class OutorderController extends BaseController {
     /**
      * 查询添加出库订单详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody

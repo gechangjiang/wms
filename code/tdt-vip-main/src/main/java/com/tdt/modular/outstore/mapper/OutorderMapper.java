@@ -17,7 +17,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-09-10
  */
 public interface OutorderMapper extends BaseMapper<Outorder> {
@@ -25,7 +25,7 @@ public interface OutorderMapper extends BaseMapper<Outorder> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     List<OutorderResult> customList(@Param("paramCondition") OutorderParam paramCondition);
@@ -33,7 +33,7 @@ public interface OutorderMapper extends BaseMapper<Outorder> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page, @Param("paramCondition") OutorderParam paramCondition, @Param("stime") Date stime, @Param("etime")Date etime);
@@ -41,7 +41,7 @@ public interface OutorderMapper extends BaseMapper<Outorder> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     Page<OutorderResult> customPageList(@Param("page") Page page, @Param("paramCondition") OutorderParam paramCondition);
@@ -49,7 +49,7 @@ public interface OutorderMapper extends BaseMapper<Outorder> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") OutorderParam paramCondition);
@@ -57,7 +57,7 @@ public interface OutorderMapper extends BaseMapper<Outorder> {
     /**
      * 级联删除出库订单和出库明细
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     void deleteAll(Long id);

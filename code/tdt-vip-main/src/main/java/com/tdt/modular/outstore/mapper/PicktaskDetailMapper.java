@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-09-12
  */
 public interface PicktaskDetailMapper extends BaseMapper<PicktaskDetail> {
@@ -23,7 +23,7 @@ public interface PicktaskDetailMapper extends BaseMapper<PicktaskDetail> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     List<PicktaskDetailResult> customList(@Param("paramCondition") PicktaskDetailParam paramCondition);
@@ -31,7 +31,7 @@ public interface PicktaskDetailMapper extends BaseMapper<PicktaskDetail> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page,@Param("paramCondition") PicktaskDetailParam paramCondition);
@@ -39,7 +39,7 @@ public interface PicktaskDetailMapper extends BaseMapper<PicktaskDetail> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     Page<PicktaskDetailResult> customPageList(@Param("page") Page page, @Param("paramCondition") PicktaskDetailParam paramCondition);
@@ -47,7 +47,7 @@ public interface PicktaskDetailMapper extends BaseMapper<PicktaskDetail> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-12
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") PicktaskDetailParam paramCondition);

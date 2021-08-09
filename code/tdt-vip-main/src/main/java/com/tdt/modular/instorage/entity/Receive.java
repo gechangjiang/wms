@@ -12,7 +12,7 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-21
  */
 @TableName("i_receive")

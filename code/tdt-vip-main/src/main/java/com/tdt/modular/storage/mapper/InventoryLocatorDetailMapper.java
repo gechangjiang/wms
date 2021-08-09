@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-28
  */
 public interface InventoryLocatorDetailMapper extends BaseMapper<InventoryLocatorDetail> {
@@ -23,7 +23,7 @@ public interface InventoryLocatorDetailMapper extends BaseMapper<InventoryLocato
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     List<InventoryLocatorDetailResult> customList(@Param("paramCondition") InventoryLocatorDetailParam paramCondition);
@@ -31,7 +31,7 @@ public interface InventoryLocatorDetailMapper extends BaseMapper<InventoryLocato
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page,@Param("paramCondition") InventoryLocatorDetailParam paramCondition);
@@ -39,7 +39,7 @@ public interface InventoryLocatorDetailMapper extends BaseMapper<InventoryLocato
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     Page<InventoryLocatorDetailResult> customPageList(@Param("page") Page page, @Param("paramCondition") InventoryLocatorDetailParam paramCondition);
@@ -47,7 +47,7 @@ public interface InventoryLocatorDetailMapper extends BaseMapper<InventoryLocato
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") InventoryLocatorDetailParam paramCondition);

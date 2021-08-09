@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-21
  */
 public interface WarehousingDetailMapper extends BaseMapper<WarehousingDetail> {
@@ -23,7 +23,7 @@ public interface WarehousingDetailMapper extends BaseMapper<WarehousingDetail> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     List<WarehousingDetailResult> customList(@Param("paramCondition") WarehousingDetailParam paramCondition);
@@ -31,7 +31,7 @@ public interface WarehousingDetailMapper extends BaseMapper<WarehousingDetail> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page,@Param("paramCondition") WarehousingDetailParam paramCondition);
@@ -47,7 +47,7 @@ public interface WarehousingDetailMapper extends BaseMapper<WarehousingDetail> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     Page<WarehousingDetailResult> customPageList(@Param("page") Page page, @Param("paramCondition") WarehousingDetailParam paramCondition);
@@ -55,7 +55,7 @@ public interface WarehousingDetailMapper extends BaseMapper<WarehousingDetail> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") WarehousingDetailParam paramCondition);

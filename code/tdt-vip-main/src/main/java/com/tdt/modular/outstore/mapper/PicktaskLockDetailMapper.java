@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-09-26
  */
 public interface PicktaskLockDetailMapper extends BaseMapper<PicktaskLockDetail> {
@@ -23,7 +23,7 @@ public interface PicktaskLockDetailMapper extends BaseMapper<PicktaskLockDetail>
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-26
      */
     List<PicktaskLockDetailResult> customList(@Param("paramCondition") PicktaskLockDetailParam paramCondition);
@@ -31,7 +31,7 @@ public interface PicktaskLockDetailMapper extends BaseMapper<PicktaskLockDetail>
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-26
      */
     List<Map<String, Object>> customMapList(@Param("paramCondition") PicktaskLockDetailParam paramCondition);
@@ -39,7 +39,7 @@ public interface PicktaskLockDetailMapper extends BaseMapper<PicktaskLockDetail>
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-26
      */
     Page<PicktaskLockDetailResult> customPageList(@Param("page") Page page, @Param("paramCondition") PicktaskLockDetailParam paramCondition);
@@ -47,7 +47,7 @@ public interface PicktaskLockDetailMapper extends BaseMapper<PicktaskLockDetail>
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-26
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") PicktaskLockDetailParam paramCondition);

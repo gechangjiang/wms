@@ -34,7 +34,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-09-17 10:33:04
  */
 @Controller
@@ -52,7 +52,7 @@ public class PickController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("")
@@ -65,7 +65,7 @@ public class PickController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/add")
@@ -76,7 +76,7 @@ public class PickController extends BaseController {
     /**
      * 添加拣货明细界面页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/add_detail")
@@ -89,7 +89,7 @@ public class PickController extends BaseController {
     /**
      * 查看拣货详情页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/checkDetail")
@@ -100,7 +100,7 @@ public class PickController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/edit")
@@ -111,7 +111,7 @@ public class PickController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/addItem")
@@ -150,7 +150,7 @@ public class PickController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/editItem")
@@ -163,7 +163,7 @@ public class PickController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/delete")
@@ -176,7 +176,7 @@ public class PickController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/detail")
@@ -189,7 +189,7 @@ public class PickController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @ResponseBody
@@ -206,7 +206,7 @@ public class PickController extends BaseController {
     /**
      * 查询添加拣货详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
@@ -235,7 +235,7 @@ public class PickController extends BaseController {
     /**
      * 点击还原按钮
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/restore")

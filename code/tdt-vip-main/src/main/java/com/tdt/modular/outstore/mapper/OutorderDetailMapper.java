@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-09-10
  */
 public interface OutorderDetailMapper extends BaseMapper<OutorderDetail> {
@@ -23,7 +23,7 @@ public interface OutorderDetailMapper extends BaseMapper<OutorderDetail> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     List<OutorderDetailResult> customList(@Param("paramCondition") OutorderDetailParam paramCondition);
@@ -31,7 +31,7 @@ public interface OutorderDetailMapper extends BaseMapper<OutorderDetail> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page,@Param("paramCondition") OutorderDetailParam paramCondition);
@@ -39,7 +39,7 @@ public interface OutorderDetailMapper extends BaseMapper<OutorderDetail> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     Page<OutorderDetailResult> customPageList(@Param("page") Page page, @Param("paramCondition") OutorderDetailParam paramCondition);
@@ -47,7 +47,7 @@ public interface OutorderDetailMapper extends BaseMapper<OutorderDetail> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") OutorderDetailParam paramCondition);
@@ -55,7 +55,7 @@ public interface OutorderDetailMapper extends BaseMapper<OutorderDetail> {
     /**
      * 统计在出库订单号相同时相同的商品种类
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     int countCategory (Long id);
@@ -63,7 +63,7 @@ public interface OutorderDetailMapper extends BaseMapper<OutorderDetail> {
     /**
      * 统计根据生成拣货订单时选中的出库订单的id查询出的某一类商品的数量
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     List<Map<String, Object>> countCommodityQty(@Param("array") String[] _ids);

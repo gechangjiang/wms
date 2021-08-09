@@ -23,7 +23,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-08-19 12:00:01
  */
 @Controller
@@ -38,7 +38,7 @@ public class WarehouseController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @RequestMapping("")
@@ -49,7 +49,7 @@ public class WarehouseController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @RequestMapping("/add")
@@ -60,7 +60,7 @@ public class WarehouseController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @RequestMapping("/edit")
@@ -71,7 +71,7 @@ public class WarehouseController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @RequestMapping("/addItem")
@@ -84,7 +84,7 @@ public class WarehouseController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @RequestMapping("/editItem")
@@ -97,7 +97,7 @@ public class WarehouseController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @RequestMapping("/delete")
@@ -110,7 +110,7 @@ public class WarehouseController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @RequestMapping("/detail")
@@ -123,7 +123,7 @@ public class WarehouseController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     @ResponseBody

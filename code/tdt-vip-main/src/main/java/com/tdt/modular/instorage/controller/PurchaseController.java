@@ -47,7 +47,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-08-21 10:55:52
  */
 @Controller
@@ -71,7 +71,7 @@ public class PurchaseController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("")
@@ -84,7 +84,7 @@ public class PurchaseController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/add")
@@ -101,7 +101,7 @@ public class PurchaseController extends BaseController {
     /**
      * 添加采购订单详情页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/purchase_detail_add")
@@ -114,7 +114,7 @@ public class PurchaseController extends BaseController {
     /**
      * 采购订单详情页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/purchase_detail")
@@ -125,7 +125,7 @@ public class PurchaseController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/edit")
@@ -140,7 +140,7 @@ public class PurchaseController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/addItem")
@@ -180,7 +180,7 @@ public class PurchaseController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/editItem")
@@ -193,7 +193,7 @@ public class PurchaseController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/delete")
@@ -206,7 +206,7 @@ public class PurchaseController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @RequestMapping("/detail")
@@ -219,7 +219,7 @@ public class PurchaseController extends BaseController {
     /**
      * 查询采购订单列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
@@ -236,7 +236,7 @@ public class PurchaseController extends BaseController {
     /**
      * 查询添加采购订单详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
@@ -253,7 +253,7 @@ public class PurchaseController extends BaseController {
     /**
      * 查询采购订单详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody

@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-19
  */
 @Data

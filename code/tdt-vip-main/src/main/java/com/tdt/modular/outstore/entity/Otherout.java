@@ -12,7 +12,7 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-09-19
  */
 @TableName("o_otherout")

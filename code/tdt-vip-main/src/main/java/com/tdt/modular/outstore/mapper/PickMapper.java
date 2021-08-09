@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-09-17
  */
 public interface PickMapper extends BaseMapper<Pick> {
@@ -23,7 +23,7 @@ public interface PickMapper extends BaseMapper<Pick> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     List<PickResult> customList(@Param("paramCondition") PickParam paramCondition);
@@ -31,7 +31,7 @@ public interface PickMapper extends BaseMapper<Pick> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page,@Param("paramCondition") PickParam paramCondition);
@@ -39,7 +39,7 @@ public interface PickMapper extends BaseMapper<Pick> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     Page<PickResult> customPageList(@Param("page") Page page, @Param("paramCondition") PickParam paramCondition);
@@ -47,7 +47,7 @@ public interface PickMapper extends BaseMapper<Pick> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") PickParam paramCondition);

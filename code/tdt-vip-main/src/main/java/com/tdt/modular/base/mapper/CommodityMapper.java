@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-16
  */
 public interface CommodityMapper extends BaseMapper<Commodity> {
@@ -23,7 +23,7 @@ public interface CommodityMapper extends BaseMapper<Commodity> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-16
      */
     List<CommodityResult> customList(@Param("paramCondition") CommodityParam paramCondition);
@@ -31,7 +31,7 @@ public interface CommodityMapper extends BaseMapper<Commodity> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-16
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page, @Param("paramCondition") CommodityParam paramCondition);
@@ -39,7 +39,7 @@ public interface CommodityMapper extends BaseMapper<Commodity> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-16
      */
     Page<CommodityResult> customPageList(@Param("page") Page page, @Param("paramCondition") CommodityParam paramCondition);
@@ -47,7 +47,7 @@ public interface CommodityMapper extends BaseMapper<Commodity> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-16
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") CommodityParam paramCondition);

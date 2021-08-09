@@ -40,7 +40,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-08-28 09:37:05
  */
 @Controller
@@ -61,7 +61,7 @@ public class AllocationController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("")
@@ -74,7 +74,7 @@ public class AllocationController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/add")
@@ -88,7 +88,7 @@ public class AllocationController extends BaseController {
     /**
      * 调拨明细新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/allocationDetail_add")
@@ -101,7 +101,7 @@ public class AllocationController extends BaseController {
     /**
      * 查看调拨明细页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/allocation_detail")
@@ -113,7 +113,7 @@ public class AllocationController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/edit")
@@ -124,7 +124,7 @@ public class AllocationController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/addItem")
@@ -163,7 +163,7 @@ public class AllocationController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/editItem")
@@ -176,7 +176,7 @@ public class AllocationController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/delete")
@@ -189,7 +189,7 @@ public class AllocationController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/detail")
@@ -202,7 +202,7 @@ public class AllocationController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @ResponseBody
@@ -219,7 +219,7 @@ public class AllocationController extends BaseController {
     /**
      * 查询调拨新增明细列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @ResponseBody
@@ -236,7 +236,7 @@ public class AllocationController extends BaseController {
     /**
      * 查询调拨明细列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @ResponseBody

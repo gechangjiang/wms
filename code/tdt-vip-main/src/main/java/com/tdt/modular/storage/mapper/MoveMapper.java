@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-28
  */
 public interface MoveMapper extends BaseMapper<Move> {
@@ -23,7 +23,7 @@ public interface MoveMapper extends BaseMapper<Move> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     List<MoveResult> customList(@Param("paramCondition") MoveParam paramCondition);
@@ -31,7 +31,7 @@ public interface MoveMapper extends BaseMapper<Move> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page,@Param("paramCondition") MoveParam paramCondition);
@@ -39,7 +39,7 @@ public interface MoveMapper extends BaseMapper<Move> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     Page<MoveResult> customPageList(@Param("page") Page page, @Param("paramCondition") MoveParam paramCondition);
@@ -47,7 +47,7 @@ public interface MoveMapper extends BaseMapper<Move> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") MoveParam paramCondition);

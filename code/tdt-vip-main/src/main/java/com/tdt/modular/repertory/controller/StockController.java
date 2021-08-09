@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-08-28 15:50:09
  */
 @Controller
@@ -35,7 +35,7 @@ public class StockController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("")
@@ -46,7 +46,7 @@ public class StockController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/add")
@@ -57,7 +57,7 @@ public class StockController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/edit")
@@ -68,7 +68,7 @@ public class StockController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/addItem")
@@ -81,7 +81,7 @@ public class StockController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/editItem")
@@ -94,7 +94,7 @@ public class StockController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/delete")
@@ -107,7 +107,7 @@ public class StockController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @RequestMapping("/detail")
@@ -120,7 +120,7 @@ public class StockController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     @ResponseBody

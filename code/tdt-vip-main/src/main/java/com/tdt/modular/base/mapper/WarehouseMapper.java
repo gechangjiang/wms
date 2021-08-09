@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-19
  */
 public interface WarehouseMapper extends BaseMapper<Warehouse> {
@@ -23,7 +23,7 @@ public interface WarehouseMapper extends BaseMapper<Warehouse> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     List<WarehouseResult> customList(@Param("paramCondition") WarehouseParam paramCondition);
@@ -31,7 +31,7 @@ public interface WarehouseMapper extends BaseMapper<Warehouse> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     List<Map<String, Object>> customMapList(@Param("page") Page page, @Param("paramCondition") WarehouseParam paramCondition);
@@ -39,7 +39,7 @@ public interface WarehouseMapper extends BaseMapper<Warehouse> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     Page<WarehouseResult> customPageList(@Param("page") Page page, @Param("paramCondition") WarehouseParam paramCondition);
@@ -47,7 +47,7 @@ public interface WarehouseMapper extends BaseMapper<Warehouse> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-19
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") WarehouseParam paramCondition);

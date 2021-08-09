@@ -16,7 +16,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-10-11
  */
 public interface OutorderTagMapper extends BaseMapper<OutorderTag> {
@@ -24,7 +24,7 @@ public interface OutorderTagMapper extends BaseMapper<OutorderTag> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-10-11
      */
     List<OutorderTagResult> customList(@Param("paramCondition") OutorderTagParam paramCondition);
@@ -32,7 +32,7 @@ public interface OutorderTagMapper extends BaseMapper<OutorderTag> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-10-11
      */
     List<Map<String, Object>> customMapList(@Param("paramCondition") OutorderTagParam paramCondition);
@@ -40,7 +40,7 @@ public interface OutorderTagMapper extends BaseMapper<OutorderTag> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-10-11
      */
     Page<OutorderTagResult> customPageList(@Param("page") Page page, @Param("paramCondition") OutorderTagParam paramCondition);
@@ -48,7 +48,7 @@ public interface OutorderTagMapper extends BaseMapper<OutorderTag> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-10-11
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") OutorderTagParam paramCondition);

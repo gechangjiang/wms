@@ -11,7 +11,7 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-10-11
  */
 @TableName("o_outorder_tag")

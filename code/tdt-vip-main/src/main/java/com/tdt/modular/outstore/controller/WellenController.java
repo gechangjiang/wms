@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-09-10 16:41:50
  */
 @Controller
@@ -49,7 +49,7 @@ public class WellenController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-10
      */
     @RequestMapping("")

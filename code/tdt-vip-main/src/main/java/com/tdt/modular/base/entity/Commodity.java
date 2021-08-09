@@ -15,7 +15,7 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-16
  */
 @TableName("b_commodity")

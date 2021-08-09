@@ -15,7 +15,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author chenc
+ * @author gcj
  * @since 2019-08-28
  */
 public interface InventoryMapper extends BaseMapper<Inventory> {
@@ -23,7 +23,7 @@ public interface InventoryMapper extends BaseMapper<Inventory> {
     /**
      * 获取列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     List<InventoryResult> customList(@Param("paramCondition") InventoryParam paramCondition);
@@ -31,7 +31,7 @@ public interface InventoryMapper extends BaseMapper<Inventory> {
     /**
      * 获取map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     List<Map<String, Object>> customMapList(@Param("paramCondition") InventoryParam paramCondition);
@@ -39,7 +39,7 @@ public interface InventoryMapper extends BaseMapper<Inventory> {
     /**
      * 获取分页实体列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     Page<InventoryResult> customPageList(@Param("page") Page page, @Param("paramCondition") InventoryParam paramCondition);
@@ -47,7 +47,7 @@ public interface InventoryMapper extends BaseMapper<Inventory> {
     /**
      * 获取分页map列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-28
      */
     Page<Map<String, Object>> customPageMapList(@Param("page") Page page, @Param("paramCondition") InventoryParam paramCondition);

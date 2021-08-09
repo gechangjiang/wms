@@ -34,7 +34,7 @@ import java.util.Map;
 /**
  * 控制器
  *
- * @author chenc
+ * @author gcj
  * @Date 2019-09-18 14:28:35
  */
 @Controller
@@ -52,7 +52,7 @@ public class ReviewController extends BaseController {
     /**
      * 跳转到主页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @RequestMapping("")
@@ -65,7 +65,7 @@ public class ReviewController extends BaseController {
     /**
      * 新增页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @RequestMapping("/add")
@@ -75,7 +75,7 @@ public class ReviewController extends BaseController {
 
     /**
      * 添加出库复核页面
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/add_detail")
@@ -87,7 +87,7 @@ public class ReviewController extends BaseController {
     /**
      * 编辑页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @RequestMapping("/edit")
@@ -98,7 +98,7 @@ public class ReviewController extends BaseController {
     /**
      * 查看出库复核详情页面
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-17
      */
     @RequestMapping("/checkDetail")
@@ -109,7 +109,7 @@ public class ReviewController extends BaseController {
     /**
      * 新增接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @RequestMapping("/addItem")
@@ -160,7 +160,7 @@ public class ReviewController extends BaseController {
     /**
      * 编辑接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @RequestMapping("/editItem")
@@ -173,7 +173,7 @@ public class ReviewController extends BaseController {
     /**
      * 删除接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @RequestMapping("/delete")
@@ -186,7 +186,7 @@ public class ReviewController extends BaseController {
     /**
      * 查看详情接口
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @RequestMapping("/detail")
@@ -199,7 +199,7 @@ public class ReviewController extends BaseController {
     /**
      * 查询列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-09-18
      */
     @ResponseBody
@@ -216,7 +216,7 @@ public class ReviewController extends BaseController {
     /**
      * 查询添加出库复核详情列表
      *
-     * @author chenc
+     * @author gcj
      * @Date 2019-08-21
      */
     @ResponseBody
